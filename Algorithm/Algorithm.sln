@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30717.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "..\PrimeNumber\PrimeNumber.csproj", "{7C496F79-0C88-496A-95CE-48928CF7FC99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumber", "..\PrimeNumber\PrimeNumber.csproj", "{7C496F79-0C88-496A-95CE-48928CF7FC99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "..\LinkedList\LinkedList.csproj", "{1666F7C7-673E-43B2-B52C-EEE47B70C4B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "..\LinkedList\LinkedList.csproj", "{1666F7C7-673E-43B2-B52C-EEE47B70C4B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BA7D651-987E-48CF-820F-70DAE4BF90AD}"
 	ProjectSection(SolutionItems) = preProject
@@ -24,19 +24,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackArrayProject", "StackA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackLinkedList", "StackLinkedList\StackLinkedList.csproj", "{7CE17AA9-7173-4DE8-B745-F570FB1473A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueArrayProject", "QueueArrayProject\QueueArrayProject.csproj", "{C68175FF-ABB5-4FAF-ABA0-6BC9D88DAAD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueArrayProject", "QueueArrayProject\QueueArrayProject.csproj", "{C68175FF-ABB5-4FAF-ABA0-6BC9D88DAAD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueLinkedListProject", "QueueLinkedListProject\QueueLinkedListProject.csproj", "{EEA70EA5-1BA3-4F9D-92ED-03BEA63B13D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueLinkedListProject", "QueueLinkedListProject\QueueLinkedListProject.csproj", "{EEA70EA5-1BA3-4F9D-92ED-03BEA63B13D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularLinkedList", "CircularLinkedList\CircularLinkedList.csproj", "{21FE7BB8-F501-4B57-A41C-0E80C3403C06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularLinkedList", "CircularLinkedList\CircularLinkedList.csproj", "{21FE7BB8-F501-4B57-A41C-0E80C3403C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CicularQueueProject", "CicularQueueProject\CicularQueueProject.csproj", "{9F75B75B-4AD7-4532-95D4-17E28F1CC0B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicularQueueProject", "CicularQueueProject\CicularQueueProject.csproj", "{9F75B75B-4AD7-4532-95D4-17E28F1CC0B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueueProject", "PriorityQueueProject\PriorityQueueProject.csproj", "{12F19F5E-3E85-4D85-849C-CEADC6042123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriorityQueueProject", "PriorityQueueProject\PriorityQueueProject.csproj", "{12F19F5E-3E85-4D85-849C-CEADC6042123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleUseStack", "ExampleUseStack\ExampleUseStack.csproj", "{87758370-580E-438A-9975-A0535F754E25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleUseStack", "ExampleUseStack\ExampleUseStack.csproj", "{87758370-580E-438A-9975-A0535F754E25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionProject", "RecursionProject\RecursionProject.csproj", "{7C4D6F15-3D47-4FCC-A668-3DBF5972BE17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionProject", "RecursionProject\RecursionProject.csproj", "{7C4D6F15-3D47-4FCC-A668-3DBF5972BE17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeProject", "BinaryTreeProject\BinaryTreeProject.csproj", "{7C6A8AB8-28A9-483D-9549-4CA6EFA1A45C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,6 +106,10 @@ Global
 		{7C4D6F15-3D47-4FCC-A668-3DBF5972BE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C4D6F15-3D47-4FCC-A668-3DBF5972BE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C4D6F15-3D47-4FCC-A668-3DBF5972BE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6A8AB8-28A9-483D-9549-4CA6EFA1A45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6A8AB8-28A9-483D-9549-4CA6EFA1A45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6A8AB8-28A9-483D-9549-4CA6EFA1A45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6A8AB8-28A9-483D-9549-4CA6EFA1A45C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

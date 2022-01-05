@@ -30,3 +30,14 @@ Console.WriteLine("Fib is : " + fib);
 var c = recursion.Count(6420); //4
 
 Console.WriteLine("C is : " + c);
+
+
+var baht = recursion.GetBaht(10264);
+var x = 0;
+
+var v = recursion.RevseveNumber(987);
+Console.WriteLine("Revses : " + v);
+
+
+recursion.PrintPeramietA(5);
+recursion.PrintPeramietB(5);
